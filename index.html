@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="CSS/style.css">
+    <title>Netflix Việt Nam</title>
+</head>
+<body>
+    <header class="showcase">
+        <div class="showcase-head">
+            <img src="Image/background.jpg" alt="Netflix Background" class="fit">
+        </div>
+        <div class="showcase-top" >
+            <img src="Image/netflixlogo.png"alt="Netflix Logo">
+            <div data-uia="language-picker-header+container" class="ui-select-wrapper">
+                <i class="bi bi-globe"></i>
+                <label for="lang-switcher-header-select" class="ui-label">
+                    <div class="select-arrow medium prefix globe">           
+                        <select data-uia="language-picker-header" class="ui-select medium" id="lang-switcher-header-select" tabindex="0" placeholder="lang-switcher">
+                            <option selected="" lang="vi" value="/vn/" data-language="vi" data-country="VN">Tiếng Việt</option>
+                            <option lang="en" value="/vn-en/" data-language="en" data-country="VN">English</option>
+                        </select>
+                    </div>        
+                </label>
+                
+            </div>
+            <a href="/login" class="btn btn-rounded" data-uia="header-login-link">Đăng nhập</a>
+        </div>
+        <div class="showcase-content">  
+            <h1>Chương trình truyền hình, phim không giới hạn và nhiều nội dung khác.</h1>
+            <h3>Xem ở mọi nơi. Hủy bất kỳ lúc nào.</h3>
+            <p>Bạn đã sẵn sàng xem chưa? Nhập email để tạo hoặc kích hoạt lại tư cách thành viên của bạn.</p>
+            <input type="email" name="email" id="email" placeholder="Địa chỉ Email">
+            <a href="" class="btn-lg" data-uia="header-getstart-link">Bắt đầu ></a>
+        </div>
+        
+    </header>
+</body>
+</html>

@@ -8,13 +8,14 @@
     <title>Netflix Việt Nam</title>
 </head>
 <body>
+    <!-- Phần header do Đinh Hồng Quân làm-->
     <header class="showcase">
-        <div class="showcase-head">
+        <div class="showcase-head"> <!--Phần background-->
             <img src="Image/background.jpg" alt="Netflix Background" class="fit">
         </div>
-        <div class="showcase-top" >
+        <div class="showcase-top" > <!--Phần mở đầu gồm logo và các button-->
             <img src="Image/netflixlogo.png"alt="Netflix Logo">
-            <div data-uia="language-picker-header+container" class="ui-select-wrapper">
+            <div data-uia="language-picker-header+container" class="ui-select-wrapper"> <!--tạo button chọn ngôn ngữ-->
                 <i class="bi bi-globe"></i>
                 <label for="lang-switcher-header-select" class="ui-label">
                     <div class="select-arrow medium prefix globe">           
@@ -23,19 +24,17 @@
                             <option lang="en" value="/vn-en/" data-language="en" data-country="VN">English</option>
                         </select>
                     </div>        
-                </label>
-                
+                </label>              
             </div>
-            <a href="/login" class="btn btn-rounded" data-uia="header-login-link">Đăng nhập</a>
+            <a href="/login" class="btn btn-rounded" data-uia="header-login-link">Đăng nhập</a> <!--tạo button đăng nhập-->
         </div>
-        <div class="showcase-content">  
+        <div class="showcase-content">  <!--Phần tiêu đề nội dung-->
             <h1>Chương trình truyền hình, phim không giới hạn và nhiều nội dung khác.</h1>
             <h3>Xem ở mọi nơi. Hủy bất kỳ lúc nào.</h3>
             <p>Bạn đã sẵn sàng xem chưa? Nhập email để tạo hoặc kích hoạt lại tư cách thành viên của bạn.</p>
-            <input type="email" name="email" id="email" placeholder="Địa chỉ Email">
-            <a href="" class="btn-lg" data-uia="header-getstart-link">Bắt đầu ></a>
+            <input type="email" name="email" id="email" placeholder="Địa chỉ Email"> <!--Tạo input nhập email-->
+            <a href="" class="btn-lg" data-uia="header-getstart-link">Bắt đầu ></a> <!--Tạo button bắt đầu-->
         </div>
-        
     </header>
 </body>
 </html>

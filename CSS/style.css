@@ -3,6 +3,7 @@
     --primary-color: #e50914;
     --dark-color: #141414;
     --light-color: #f4f4f4;
+    box-sizing: border-box;
 } 
 *{
     padding: 0;
@@ -33,6 +34,15 @@ p{
 }
 img{
     width: 100%;
+}
+.showcase::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(Image/backgrund.jpg) no-repeat center center/cover;
+    opacity: 0.3;
+    z-index: -1;
 }
 /* chỉnh sửa độ sáng background đằng sau */
 .showcase::after{
@@ -68,8 +78,7 @@ img{
     width: 170px;
     position: absolute;
     top: 50%;
-    left: 0;
-    transform: translate(40%, -50%);
+    left: 35px;
 }
 /* chọn vị trí cho nút đăng nhập */
 .showcase-top a{
@@ -137,13 +146,15 @@ img{
 /* chọn vị trí cho email */
 .showcase-content input{
     position: absolute;
-    bottom: -1vh;
+    bottom: -9vh;
     width: 454px;
     height: 3rem;
     font-size: 1rem;
-    padding-left: 0.5rem;
-    padding: 10px 56px 0;
-    transform: translate(-15%, 1%);
+    margin: auto;
+    padding: 10px 36px ;
+    margin-left: -150px;
+    justify-content: center;
+    align-items: center;
 }
 /* chinhr sửa thuộc tính cho các nút */
 .btn{
@@ -169,13 +180,16 @@ img{
 }
 /* chọn vị trí cho nút bắt đầu */
 .showcase .btn-lg{
-    position: relative;  
-    right: -40vh;
-    bottom: -1vh;
-    padding: 0.81rem 0.2rem;
+    position: absolute;
+    bottom: -9vh;
+    margin: auto;
+    margin-left: 549px;
+    padding: 1.1rem 0.2rem;
     font-size: 1.625rem;
     text-transform: none;
     height: 36px;
-    width: 14rem;
+    width: 10rem;
     background-color: var(--primary-color);
+    justify-content: center;
+    align-items: center;
 }

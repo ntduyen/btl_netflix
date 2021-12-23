@@ -10,7 +10,7 @@
     margin: 0;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     background: #000000;
     color: #999999;
 }
@@ -43,6 +43,7 @@ img{
     background: url(Image/backgrund.jpg) no-repeat center center/cover;
     opacity: 0.3;
     z-index: -1;
+    
 }
 /* chỉnh sửa độ sáng background đằng sau */
 .showcase::after{
@@ -57,49 +58,45 @@ img{
     box-shadow: 120px 100px 250px #000000, inset -120px 100px 250px #000000;
 }
 /* chỉnh sửa các thuộc tính cho background */
-.showcase-head img{
+.showcase .showcase-head img{
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    display: 100%;
+    display: inline-block;
     justify-content:space-between;
     align-items:center;
+    border-bottom: 8px rgb(116, 112, 112) solid ;
 }
 /* chọn vị trí cho phần top */
-.showcase-top{
+.showcase .showcase-top{
     position: relative;
     z-index: 2;
     height: 90px;
+    padding-bottom: 350px;
+    
 }
 /* chọn vị trí cho ảnh logo */
-.showcase-top img{
+.showcase .showcase-top img{
     width: 170px;
     position: absolute;
-    top: 50%;
-    left: 35px;
+    top: 5%;
+    left: 55px;
 }
 /* chọn vị trí cho nút đăng nhập */
-.showcase-top a{
+.showcase .showcase-top a{
     width: 140px;
     position: absolute;
-    top: 50%;
+    top: 10%;
     right: 0;
     transform: translate(-20%, -50%);
     box-sizing: border-box;
 }
 /* chỉnh sửa thuộc tính cho nút chọn ngôn ngữ */
-.ui-select-wrapper .select-arrow {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    font-size: 50px;
-}
-/* chọn vị trí cho nút chọn ngôn ngữ */
 .ui-select{
     position: absolute;
-    top: 50%;
+    top: 3.5%;
     right: 0;
     font-size: 17px;
     transform: translate(-180%, 35%);
@@ -109,7 +106,7 @@ img{
     border-radius: 5px;
 }
 /* chọn vị trí cho tiêu đề nội dung */
-.showcase-content{
+.showcase .showcase-content{
     position: relative;
     margin: 10 20%;
     z-index: 2;
@@ -119,10 +116,10 @@ img{
     text-align:center;
     align-items: center;
     margin-top: 5rem;
-    bottom: -10vh;
+    bottom: 25vh;
 }
 /* chinhr sửa thuộc tính cho nội dung 1 */
-.showcase-content h1{
+.showcase .showcase-content h1{
     font-weight: 700;
     font-size: 60.5px;
     margin:0 5px;
@@ -130,21 +127,42 @@ img{
     line-height: 60px;
 }
 /* chinhr sửa thuộc tính cho nội dung 2 */
-.showcase-content h3{
+.showcase .showcase-content h3{
     color:white;
     font-size: 25px;
     margin: 16px 0;
     max-width: 640px;
 }
 /* chinhr sửa thuộc tính cho nội dung 3 */
-.showcase-content p{
+.showcase .showcase-content p{
     font-size: 19.2px;
     font-weight: 300;
     padding-top: 0.5rem;
     padding-bottom: 1rem;
 }
-/* chọn vị trí cho email */
+/*.showcase-content{
+    display:inline-grid;
+    grid-template-columns: 50% 40%;
+    align-items: center;
+}
 .showcase-content input{
+    width: 550px;
+    height: 3rem;
+}
+.showcase-content .btn-lg{
+    height: 3.25rem;
+    width: 200px;
+    left: 20px;
+    text-align: center;
+    background-color: var(--primary-color);
+    font-size: 1.5rem;
+    padding: 15px 32px ;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}*/
+/* chọn vị trí cho email */
+.showcase .showcase-content input{
     position: absolute;
     bottom: -9vh;
     width: 454px;
@@ -155,6 +173,8 @@ img{
     margin-left: -150px;
     justify-content: center;
     align-items: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 /* chinhr sửa thuộc tính cho các nút */
 .btn{
@@ -172,14 +192,14 @@ img{
     box-shadow: 0 5px 3px rgba(0,0,0,0.45); 
 }
 .btn:hover{
-    opacity: 0.9;
+   opacity: 0.9;
 }
 /* tạọ vùng biên cho nút đăng nhập */
 .btn-rounded{
     border-radius: 5px;
 }
 /* chọn vị trí cho nút bắt đầu */
-.showcase .btn-lg{
+.showcase .showcase-content .btn-lg{
     position: absolute;
     bottom: -9vh;
     margin: auto;
@@ -192,4 +212,128 @@ img{
     background-color: var(--primary-color);
     justify-content: center;
     align-items: center;
+}
+/* Chỉnh sửa thuộc tính cho các tiêu đề */
+.style-cards h1{
+    font-size:3rem;
+    padding: 1rem;
+    padding-left: 0;
+}
+.style-cards h3{
+    font-size: 1.6rem;
+    line-height: 2rem;  
+}
+/* chọn vị trí cho tiêu đề 1 + ảnh 1 */
+.card-0{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+    padding: 100px;
+}
+/* căn lề cho tiêu đề 1 */
+.desc-0{
+    padding-left: 100px;
+}
+/* chọn vị trí cho tiêu đề 2 + ảnh 2 + video 1 */
+.card-1{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+    border-top: 8px rgb(69,69,69) solid;
+    padding: 100px;
+}
+/* căn lề cho tiêu đề 2 */
+.desc-1{
+    padding-left:80px;
+}
+/*Chỉnh sửa thuộc tính cho video 1 */
+.card-1 video{
+    position: relative;
+    width: 100%;
+    height: 54%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+/* Sắp xêp vị trí ảnh 2 sao cho trùng khớp với video 1 */
+.card-1 img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+/* chọn vị trí cho tiêu đề 3 + ảnh 3 */
+.card-2{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+    border-top: 8px rgb(69,69,69) solid;
+    padding: 100px;
+}
+/* căn lề cho tiêu đề 3 */
+.decs-2{
+    padding-left: 100px;
+}
+/* chọn vị trí cho tiêu đề 4 + ảnh 4 */
+.card-3{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+    border-top: 8px rgb(69,69,69) solid;
+    padding: 100px;
+}
+/* căn lề cho tiêu đề 4 */
+.decs-3{
+    padding-left: 100px;
+}
+.btn-app{
+    position: relative;
+    color: white;
+    font-size: 1.6rem;
+    background: black;
+    padding-left: 0;
+    padding-top: 40px;
+}
+/* chọn vị trí cho tiêu đề 5 + ảnh 5 + video 2 */
+.card-4{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+    border-top: 8px rgb(69,69,69) solid;
+    padding: 100px;
+}
+/* căn lề cho tiêu đề 5 */
+.decs-4{
+    padding-left: 80px;
+    padding-right: 20px;
+}
+/*Chỉnh sửa thuộc tính cho video 1 */
+.card-4 video{
+    position: relative;  
+    width: 70%;
+    height: 78%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+    margin: auto;
+    transform: translate(5%, -25%);
+}
+/* Sắp xêp vị trí ảnh 2 sao cho trùng khớp với video 1 */
+.card-4 img{
+    width: 110%;
+    grid-column: 2/2;
+    grid-row: 1/2;
 }

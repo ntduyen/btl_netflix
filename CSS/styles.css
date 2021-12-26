@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: #999999;
+
+}
+h1{
+    color: #ffffff;
+    
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.faq-card {
+    text-align: center;
+}
+.faq-card h1{
+    padding-bottom: 40px;
+    font-size: 3rem;
+}
+.faq-list{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    align-items: center;
+}
+.faq-list li{
+    padding: 20px 30px;
+    margin: 5px;
+    font-size: 1.6rem;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    text-align: left;
+    width: 50%;
+}
+.faq-card p{
+    padding-top: 60px;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+form .email-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* grid-template-columns: 50% 40%; */
+    
+}
+form p{
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 400;
+    padding: 1.5rem 0;
+    padding-bottom: 40px;
+}
+form .input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.input input{
+    padding: 10px 10px 0 10px;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #8c8c8c;
+    color: #000;
+    min-width: 400px;
+    height: 50px;
+    align-items: center;
+}
+form .input button{
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    outline: none;
+    letter-spacing: 0.1px;
+    border-radius: 4px;
+    background-color: #e50914;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+    font-size: 1.6rem;
+    padding: 0 30px;
+    line-height: 60px;
+    min-width: 310px;
+    cursor: pointer;
+
+}
+/* Footer */
+.footer{
+    max-width: 70%;
+    margin: 1rem auto;
+    overflow: auto;
+}
+footer p {
+    margin-bottom: 1.5rem;
+}
+.footer, .footer a{
+    color: #999999;
+    font-size: 0.9rem;
+}
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+.footer li{
+    line-height: 2.4;
+    
+}
+/* chỉnh sửa thuộc tính cho nút chọn ngôn ngữ */
+.ui-select-wrapper .select-arrow {
+    
+    display: inline-block;
+    width: 100%;
+    font-size: 50px;
+}
+/* chọn vị trí cho nút chọn ngôn ngữ */
+.ui-select{
+   
+    top: 50%;
+    right: 0;
+    font-size: 17px;
+    transform: translate(-180%, 35%);
+    background: #00000066;
+    padding: 6px 10px;
+    color: var(--light-color);
+}

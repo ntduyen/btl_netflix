@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 .logo {
@@ -18,7 +19,7 @@ body{
 .wrapper{
     background-image:url(./css/image/background.jpg) ;
     height: 100vh;
-    background-image: cover;
+     background-size: cover; /*co dãn bằng kích thướng màn hình */
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
@@ -145,4 +146,46 @@ body{
 .terms a{
     text-decoration: none;
     color: #0071eb;
+}
+
+/* Footer */
+.footer{
+    max-width: 70%;
+    margin: 1rem auto;
+    overflow: auto;
+    background: rgba(0,0,0, 0.75); /* màu nền đen mờ */
+}
+footer p {
+    margin-bottom: 1.5rem;
+}
+.footer, .footer a{
+    color: #999999;
+    font-size: 0.9rem;
+}
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+.footer li{
+    line-height: 2.4;
+    
+}
+/* chỉnh sửa thuộc tính cho nút chọn ngôn ngữ */
+.ui-select-wrapper .select-arrow {
+    
+    display: inline-block;
+    width: 100%;
+    font-size: 50px;
+}
+/* chọn vị trí cho nút chọn ngôn ngữ */
+.ui-select{
+   
+    top: 50%;
+    right: 0;
+    font-size: 17px;
+    transform: translate(-180%, 35%);
+    background: #00000066;
+    padding: 6px 10px;
+    color: var(--light-color);
 }

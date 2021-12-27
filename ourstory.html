@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,56 +8,104 @@
     <title>Netflix</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <section class="lastsec">
-        <div class="our-story-card faq-card">
-            <div class="our-story-card-text">
-                <h1 id="" class="our-story-card-title" data-uia="faq-title">Frequently Asked Questions</h1>
-                <ul class="faq-list">
-                    <li class="faq-list-item" data-uia-nmhp="faq-list-item" data-uia-faq="what_is_netflix">
-                        <button class="faq-question">What is Netflix?
-                        </button>
-                        <div class="faq-answer closed">
-                            <span id="" data-uia="">Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
-                                <br>
-                                <br>You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!
-                            </span>
-                        </div>
-                    </li>
-                    <li class="faq-list-item">
-                        <button class="faq-question">
-                            How much does Netflix cost?
-                        </button>
-                    </li>
-                    <li lass="faq-list-item">
-                        <button class="faq-question">
-                            Where can I watch?
-                        </button>
-                    </li>
-                    <li lass="faq-list-item">
-                        <button class="faq-question">
-                            How do I cancel?
-                        </button>
-                    </li>
-                    <li lass="faq-list-item">
-                        <button class="faq-question">
-                            What can I watch on Netflix?
-                        </button>
-                    </li>
-                    <li lass="faq-list-item">
-                        <button class="faq-question">
-                            Is Netflix good for kids?
-                        </button>
-                    </li>
-                </ul>
-                <form class="email-form">
-                    <p>Ready to watch? Enter your email to create or restart your membership.</p>
-                    <div class="input">
-                        <input type="email" name="email" placeholder="Email address">
-                        <button type="button">GET STARTED > </button>
-                
-                    </div>
-                </form>
+    <section class="list">
+        <h1>Frequently Asked Questions</h1>
+        <div class="accordion-menu">
+            <div class="item" id="item1">
+                <a href="#item1" class="title">
+                    <span>What is Netflix?</span>
+                    <i class="icon"></i>
+                </a>
+                <p class="text">
+                    Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                    documentaries, and more on thousands of internet-connected devices.
+                    <br>
+                    <br>
+                    You can watch as much as you want, whenever you want without a single commercial – all for one low
+                    monthly price. There's always something new to discover and new TV shows and movies are added every
+                    week!
+
+                </p>
+            </div>
+            <div class="item" id="item2">
+                <a href="#item2" class="title">
+                    <span>How much does Netflix cost ?</span>
+                    <i class="icon"></i>
+                </a>
+                <p class="text">
+                    Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed
+                    monthly fee. Plans range from 70,000 ₫ to 260,000 ₫ a month. No extra costs, no contracts.
+
+                </p>
+            </div>
+            <div class="item" id="item3">
+                <a href="#item3" class="title">
+                    <span>Where can I watch?</span>
+                    <i class="icon"></i>
+                </a>
+                <p class="text">
+                    Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at
+                    netflix.com from your personal computer or on any internet-connected device that offers the Netflix
+                    app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+
+                    <br>
+                    <br>
+                    You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to
+                    watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+
+                </p>
+            </div>
+            <div class="item" id="item4">
+                <a href="#item4" class="title">
+                    <span>How do I cancel?</span>
+                    <i class="icon"></i>
+                </a>
+                <p class="text">
+                    Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your
+                    account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+                </p>
+            </div>
+            <div class="item" id="item5">
+                <a href="#item5" class="title">
+                    <span>What can I watch on Netflix?</span>
+                    <i class="icon"></i>
+                </a>
+                <p class="text">
+                    Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning
+                    Netflix originals, and more. Watch as much as you want, anytime you want.
+
+                </p>
+            </div>
+            <div class="item" id="item6">
+                <a href="#item6" class="title">
+                    <span>Is Netflix good for kids?</span>
+                    <i class="icon"></i>
+                </a>
+                <p class="text">
+                    The Netflix Kids experience is included in your membership to give parents control while kids enjoy
+                    family-friendly TV shows and movies in their own space.
+                    <br>
+                    <br>
+                    Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of
+                    content kids can watch and block specific titles you don’t want kids to see.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- input email -->
+    <section class="banner">
+        <div class="box">
+            <div class="heading">
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            </div>
+            <div class="search">
+                <input type="text" name="email" placeholder="Email address">
+                <button type="button">GET STARTED > </button>
+    
             </div>
         </div>
     </section>
@@ -89,19 +138,9 @@
                 <li><a href="#">Contact Us</a></li>
             </ul>
         </div>
-        <div data-uia="language-picker-header+container" class="ui-select-wrapper"> <!--tạo button chọn ngôn ngữ-->
-            <i class="bi bi-globe"></i>
-            <label for="lang-switcher-header-select" class="ui-label">
-                <div class="select-arrow medium prefix globe">           
-                    <select data-uia="language-picker-header" class="ui-select medium" id="lang-switcher-header-select" tabindex="0" placeholder="lang-switcher">
-                        <option selected="" lang="vi" value="/vn/" data-language="vi" data-country="VN">Tiếng Việt</option>
-                        <option lang="en" value="/vn-en/" data-language="en" data-country="VN">English</option>
-                    </select>
-                </div>        
-            </label>              
-        </div>
-        <p>Netflix VietNam</p>
+        
+        <p>NETFLIX VIETNAM</p>
     </footer>
 </body>
-</html>
 
+</html>

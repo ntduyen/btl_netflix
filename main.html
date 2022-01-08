@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+     <script src="https://kit.fontawesome.com/da3a01af99.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="./stylemain.css">
+    <title>Netflix clone</title>
 </head>
-<body>
-    <script src="https://kit.fontawesome.com/da3a01af99.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./stylemain.css">
-    <title>Netflix Clone</title>
+  
 <body>
     <!-- Nav heading -->
-    <div class="fixed-div">
+    <div class="fixed-div" id="home">
     <div class="parent-div">
     <img src="https://github.com/Chinemereem/Netflix-clone/blob/master/images/netflix%20logo.png?raw=true" alt="netflix img" class="logo">
         <div class="dropdown">
             <span class="browse-el">Browse</span>
             <div class="dropdown-content">
               <p>Home</p>
-               <p>Tv shows</p>
+              
+               <p><a href="#dramas">TV Shows</a></p>
                 <p>Movies</p>
-                <p>News & popular</p>
-              <p><a href="#list">My List</a></p>
+                
+                <p><a href="#only-on-netflix">News & popular</a></p>
+              <p><a href="#list">My List</a></p> 
             </div>
     </div>
     </div>
@@ -42,9 +43,13 @@
           </div>
           <div class="dropdown-img">
             <img src="https://github.com/Chinemereem/Netflix-clone/blob/master/images/after-life.jpeg?raw=true" alt="">
-            <p>🛎 Reminder: New Arrival<br>
+           <p> <a href="#controz"> 🛎 Reminder: New Arrival<br>
+                Afterlife Of The Party<br>
+             <span style= "color:#2D2D2D">1 day ago</span> </a>
+            </p>
+               <!--  🛎 Reminder: New Arrival<br>
                  Afterlife Of The Party<br>
-              <span style= "color:#2D2D2D">1 day ago</span></p>
+              <span style= "color:#2D2D2D">1 day ago</span></p> -->
           </div>
         <div class="dropdown-img">
       <img src="https://github.com/Chinemereem/Netflix-clone/blob/master/images/control-zz.jpeg?raw=true" alt="">
@@ -103,19 +108,19 @@
     </div>
    </div>
 <div class="user-img" style="float: right;">
-    <img src="./CSS/image/icon_account.png" alt="">
+    <img src="https://github.com/Chinemereem/Netflix-clone/blob/master/images/user.png?raw=true" alt="">
           <span class="span-icon"></span> 
       </div>
 </div>
 
   <!-- image and logo -->
-<div class="between-img-div">
-    <img src="./CSS/image/anhphim.png" class="between-img" alt="">
+<div class="between-img-div" >
+    <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/between-1.webp" class="between-img" alt="">
 </div>
     <div class="logo-and-text">
         <div class="titleWrapper" style="transform-origin: left bottom; transform: scale(1) translate3d(0px, 0px, 0px); transition-duration: 1300ms; transition-delay: 0ms;">
             <div class="billboard-title">
-                <img class="title-logo" src="./CSS/image/" title="Between" alt="Between">
+                <img class="title-logo" src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/netflixsvg.webp" title="Between" alt="Between">
             </div>
         </div>
             <div class="info-wrapper" style="transform: translate3d(0px, 0px, 0px); transition-duration: 1300ms; transition-delay: 0ms; opacity: 1;">
@@ -148,29 +153,32 @@
 <!-- drama collection -->
 <section class="all-drama">
 <div class="tv-dramas">
-    <h2 class="tvd-h2">Tv Dramas</h2>
+    <h2 class="tvd-h2" id="dramas">Tv Dramas</h2>
     <div class="div-width">
-    <div class="all-movie-div ">
-    <div >
-        <iframe width="340" height="196" src="https://www.youtube.com/embed/PZ6WmbQeJ2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="all-movie-div">
+    <a href="./CSS/image/videodemo.video.mp4">
+            <img src="./CSS/image/filmtaixeandanh.png" title="Học lập trình"/>
+    </a>
+    <div class="orange">
+        <img src="./CSS/image/filmtaixeandanh.png" alt="orange image">
     </div>
-    <div>
-        <iframe width="340" height="196" src="https://www.youtube.com/embed/9VCAcQbKNJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="outerbanks">
+        <img src="https://github.com/Chinemereem/Netflix-clone/blob/master/images/outer-banks.jpg?raw=true" alt="outerbanks image">
     </div>
-    <div >
-        <iframe width="341" height="196" src="https://www.youtube.com/embed/Rt_UqUm38BI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="gooddoctor">
+        <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/gooddoctor.webp" alt="gooddoctor image">
     </div>
-    <div >
-        <iframe width="341" height="196" src="https://www.youtube.com/embed/Wn_Kb3MR_cU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="teenwolf">
+        <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/teenwolf.webp" alt="teenwolf image">
     </div>
-    <div >
-        <iframe width="341" height="196" src="https://www.youtube.com/embed/a1FiGA3yau8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="vincezo">
+        <img src="https://github.com/Chinemereem/Netflix-clone/blob/master/images/vincenzo.jpg?raw=true" alt="vincenzo image">
     </div>
-    <div >
-        <iframe width="341" height="196" src="https://www.youtube.com/embed/5shan_X1ldk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="nevertheless">
+        <img src="https://github.com/Chinemereem/Netflix-clone/blob/master/images/nevertheless.jpg?raw=true" alt="nevertheless image">
     </div>
-    <div >
-        <iframe width="341" height="196" src="https://www.youtube.com/embed/f0lGvFT3Zts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="notokay">
+        <img src="https://github.com/Chinemereem/Netflix-clone/blob/master/images/it%20is%20okay%20to%20not%20be%20okay.jpg?raw=true" alt="netflix not okay series img">
     </div>
 </div>
 </div>
@@ -184,26 +192,26 @@
     <h2 class="all-tvd-h2">Trending now</h2>
     <div class="second-div-width">
         <div class="second-all-movie-div">
-    <div>
-        <iframe width="341" height="196" src="https://www.youtube.com/embed/H4hHW4cHJ_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="control-z" id="controz">
+        <img src="https://github.com/Chinemereem/Netflix-clone/blob/master/images/controlz.jpg?raw=true" alt="contro z">
     </div>
-    <div >
-        <iframe width="341" height="196" src="https://www.youtube.com/embed/jgZkrA8E5do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="crazy-rich-asians">
+        <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/crazy%20rich%20asian.webp" alt="crazy-rich-asians">
     </div>
-    <div >
-        <iframe width="341" height="196" src="https://www.youtube.com/embed/xOcdMWKB0kw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="blood">
+        <img src="https://github.com/Chinemereem/Netflix-clone/blob/master/images/blood.jpg?raw=true" alt="blood series">
     </div>
-    <div>
-        <iframe width="341" height="196" src="https://www.youtube.com/embed/gTRuKY9SYS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="mimi">
+        <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/mimi.webp" alt="mimi">
     </div>
-    <div >
-        <iframe width="341" height="196" src="https://www.youtube.com/embed/oCTqpqtgwo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="my-secrete-romance">
+        <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/secrete%20romance.webp" alt="my-secrete-romance">
     </div>
-    <div >
-        <iframe width="341" height="196" src="https://www.youtube.com/embed/H3meYwvB8Bg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="insatiable">
+        <img src="https://github.com/Chinemereem/Netflix-clone/blob/master/images/insatiable.jpg?raw=true" alt="insatiable">
     </div>
-    <div >
-        <iframe width="341" height="196" src="https://www.youtube.com/embed/8zRy02Wl1JA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="tempted">
+        <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/tempted.webp" alt="tempted">
     </div>
     </div>
 </div>
@@ -216,30 +224,30 @@
 <div class="my-list" id="list">
     <h2 class="h2list">My List</h2>
     <div class="list-div-width">
-        <div class="second-div-list ">
-            <div >
-                <iframe width="341" height="196" src="https://www.youtube.com/embed/4oQ39OlYEKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="second-div-list">
+            <div class="nevertheless-list">
+                <img src="https://github.com/Chinemereem/Netflix-clone/blob/master/images/nevertheless.jpg?raw=true" alt="">
             </div>
-            <div>
-                <iframe width="341" height="196" src="https://www.youtube.com/embed/HQwybiqQx4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="ije">
+                <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/ije.webp" alt="ije">
             </div>
-            <div >
-                <iframe width="341" height="196" src="https://www.youtube.com/embed/8PwoytUU06g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="controlz-list">
+                <img src="https://github.com/Chinemereem/Netflix-clone/blob/master/images/controlz.jpg?raw=true" alt="control-z">
             </div>
-            <div >
-                <iframe width="341" height="196" src="https://www.youtube.com/embed/hVwbNCZWPgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="hwarang">
+                <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/hwarang.webp" alt="hwarang">
             </div>
-            <div >
-                <iframe width="341" height="196" src="https://www.youtube.com/embed/Y4VXlEuzSU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="one-day">
+                <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/oneday.webp" alt="one day">
             </div>
-                <div>
-                    <iframe width="341" height="196" src="https://www.youtube.com/embed/RygNPJL7DYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="blood-in-list">
+                    <img src="https://github.com/Chinemereem/Netflix-clone/blob/master/images/blood.jpg?raw=true" alt="blood">
                 </div>
-                <div>
-                    <iframe width="341" height="196" src="https://www.youtube.com/embed/ssm1Zm6_ULM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="blade">
+                    <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/blade.webp" alt="blade series">
                 </div>
-          <div >
-            <iframe width="341" height="196" src="https://www.youtube.com/embed/X3x2zUunjl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="vincezo">
+        <img src="https://github.com/Chinemereem/Netflix-clone/blob/master/images/vincenzo.jpg?raw=true" alt="vincenzo image">
     </div>
             </div>
         </div>
@@ -250,54 +258,54 @@
     <a class="next">&#10095;</a>
 </div>
 <!-- only on netflix -->
-<div class="only-on-netflix">
+<div class="only-on-netflix" id="only-on-netflix">
     <h2 class="tvtvd-h2">Only On Netflix</h2>
     <div class="netflix-div-width">
         <div class="netflix-all-movie-div">
-            <div>
-                <iframe width="341" height="196" src="https://www.youtube.com/embed/Z23umZEFL3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="nevertheless-list">
+                <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/never-big-img.webp" alt="">
             </div>
-            <div >
-                <iframe width="341" height="196" src="https://www.youtube.com/embed/vjHdJIdhCMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="ije">
+                <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/vincenzo-bigimg.webp" alt="ije">
             </div>
-            <div>
-                <iframe width="341" height="196" src="https://www.youtube.com/embed/Ns4hts64Zqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="controlz-list">
+                <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/not%20okaybig%20img.webp" alt="control-z">
             </div>
-            <div >
-                <iframe width="341" height="196" src="https://www.youtube.com/embed/rZ9bAW3MlMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="hwarang">
+                <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/outerbanks%20bigimg.webp" alt="hwarang">
             </div>
-            <div >
-                <iframe width="341" height="196" src="https://www.youtube.com/embed/-rTnlzXXswU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="one-day">
+                <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/spaceswipper.webp" alt="one day">
             </div>
-             <div >
-                    <iframe width="341" height="196" src="https://www.youtube.com/embed/VBXqrBl6pEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="blood-in-list">
+                    <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/blood%20red%20sky.webp" alt="blood">
                 </div>
-                <div>
-                    <iframe width="341" height="196" src="https://www.youtube.com/embed/YjQctA6U_Is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="blade">
+                    <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/blood%20and%20water%20bigimg.webp":alt="blade series">
                 </div>
-          <div>
-            <iframe width="341" height="196" src="https://www.youtube.com/embed/CyEBaYYUroM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="image">
+                <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/cha-cha-hometpwn.webp" alt="cha-cha-hometpwn">
             </div>
-            <div >
-                <iframe width="341" height="196" src="https://www.youtube.com/embed/eHsWYmnXk1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="image">
+                <img src="https://github.com/Chinemereem/Netflix-clone/blob/master/images/Hes-all-that.jpg?raw=true" alt="he's all that" width="250">
             </div>
-            <div >
-                <iframe width="341" height="196" src="https://www.youtube.com/embed/WJyyJ7lexnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="image">
+                <img src="https://github.com/Chinemereem/Netflix-clone/blob/master/images/sweet-girl.jpg?raw=true" alt="" width="250">
             </div>
-            <div >
-                <iframe width="341" height="196" src="https://www.youtube.com/embed/Af_Hj0MDBBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="image">
+                <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/king-of-boys.webp" alt="">
             </div>
             </div>
         </div>
     </div>
 </div>
 <div class="top10-now">
-    <h2 class="top10-tvd-h2">Top 10 In VietNam</h2>
+    <h2 class="top10-tvd-h2">Top 10 In Nigeria</h2>
     <div class="top10-div-width">
         <div class="top10-all-movie-div">
     <div class="quams-money">
         <div class="topp-one"></div>
-        <iframe width="198" height="341" src="https://www.youtube.com/embed/FXXw-0ccWwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/quans%20money.webp" alt="quams money">
     </div>
     <div class="top2-film-nigerial">
       <div class="half-circle"></div>
@@ -334,7 +342,7 @@
 <div class="my-list div-list">
     <h2 class="h2list" style="position:relative; top:60px">Women behind the screen</h2> <a class="sec-next">&#10095;</a>
     <div class="list-div-width">
-        <div class="second-div-list ">
+        <div class="second-div-list">
             <div class="nevertheless-list">
                 <img src="https://raw.githubusercontent.com/Chinemereem/Netflix-clone/master/images/intern.webp" alt="">
             </div>
@@ -364,7 +372,7 @@
     <a class="prev">&#10094;</a>
     <a class="next">&#10095;</a>
 </div>
-<!-- Phần footer -->
+
 <footer>
 <div class="grid-container">
     <div class="grid-item">

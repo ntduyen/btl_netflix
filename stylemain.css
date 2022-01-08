@@ -404,7 +404,7 @@ width: 95px;
 }
 .second-div-list{
     display: flex;
-    
+ 
 }
 .list-div-width{
     width: 100%;
@@ -425,12 +425,12 @@ width: 95px;
     height: 450px;
   
 }
-/* .netflix-div-width{
+.netflix-div-width{
     width: 100%;
     cursor: pointer;
     overflow-x: auto;
     margin-top: 40px;
-} */
+}
 .netflix-all-movie-div{
     display: flex;
 }

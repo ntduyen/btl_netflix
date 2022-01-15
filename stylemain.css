@@ -65,11 +65,11 @@ font-weight: bolder; color: white;
 .browse-el{
     display: none;
 }
-/* notification nav */
+/* vị trí thanh tìm kiếm */
 .float-op{
     position: relative;
-   top: -37px;
-    left:-120px;
+   top: -29px;
+    left:-70px;
 }
 
 .search{
@@ -114,110 +114,7 @@ font-weight: bolder; color: white;
     margin: 10px -0px;
     
 }
-/* notificatin dropdown */
-.dropbtn {
-    background-color: #ffffff;
-    cursor: pointer;
-    transform: translateY(-50%);
-    transform-origin: 50% 0%;
-    width: 15px;
-    height: 10px;
-    border-radius: 28px 28px 0 0;
-   
-    z-index: 4;
-  }
-  
-  .dropbtn::after{
-    content: "";
-    position: absolute;
-    border-radius: 100px;
-    width: 12px;
-    height: 12px;
-    top:109%;
-    left:10%;
-    background-color: #FFFFFF;   
-    z-index: -1;
-  }
-  .dropbtn:before{
-    content: "";
-    position: absolute;
-    border-top-left-radius: 1100px;
-    border-top-right-radius: 1100px;
-    width: 22px;
-    height: 10px;
-    top:70%;
-    left:-23%;
-    background-color: #FFFFFF;
-    
-}
-  .dropdown2 {
-    position: relative;
-    top: -35px;
-    left:-66px;
-    display: inline-block;
-    z-index: 3;
-  }
-  
-  .dropdown-content2 {
-    display: none;
-    position: absolute;
-    top: 20px;
-    right: 0;
-    background-color:rgba(0, 0, 2, .5);
-    border-top: 3px solid #757676;
-    min-width: 380px;
-    height: 400px;
-    overflow-y: scroll;
-    padding: 20px;
-    box-shadow: 0px 8px 16px 0px rgba(27, 26, 26, 0.2);
-    z-index: 1;
-    
-  }
-  .span-style{
-    width: 0px;
-    height: 0px;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-bottom: 10px solid #E5E5E5;
-    position: relative;
-    top: -25px;
-    left: 345px;
-    
-    
-}
 
-.dropdown-img{
-    display: flex;
-    border-bottom: solid 2px #343434;
-   margin-top: 8px;
-  
-    }
-.dropdown-content2 img{
-
-border-radius: 5px;
-margin-left: -10px;
-
-}
-.dropdown-img p{
-margin-top: -2px;
-margin-left: 10px;
-
-}
-  .dropdown-content2 p {
-    color: #ccc;
-    
-   
-  }
-  
-  .dropdown-content2 p:hover {background-color: #222;width: 100%;}
-  .dropdown2:hover .dropdown-content2 {display: block;}
-  .dropdown2:hover .dropbtn {background-color: #ccc;}
-  
-  /* image and logo */
-  .between-img-div{
-     position: relative;
-     top: 10px;
-  }
 .logo-and-text{
     position: relative;
     margin-left: 40px;
@@ -912,9 +809,7 @@ font-size: 14rem;
     
         
     }
-    .dropdown2 {
-        left:-50px;
-      }
+
       
 .browse-el{
     margin-left: -120px;
@@ -923,14 +818,10 @@ font-size: 14rem;
    left:  -190px;
     
 }
-.dropdown-content2 {
-    min-width: 220px;
-   
-  }
-.float-op{
+/* .float-op{
   left: -100px; 
     
-}
+} */
 .user-img{
     left: 10px; 
 }

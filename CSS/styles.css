@@ -313,6 +313,7 @@ img{
     align-items: center;
     padding: 25px 45px 50px;
     border-top: 8px rgb(69,69,69) solid;
+    border-bottom: 8px rgb(69,69,69) solid;
     padding: 100px;
 }
 /* căn lề cho tiêu đề 5 */

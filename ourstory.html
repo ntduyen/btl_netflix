@@ -10,6 +10,81 @@
 </head>
 
 <body>
+        <!-- Phần header do Đinh Hồng Quân làm-->
+    <header class="showcase">
+        <div class="showcase-head"> <!--Phần background-->
+            <img src="Image/background.jpg" alt="Netflix Background" class="fit">
+        </div>
+        <div class="showcase-top" > <!--Phần mở đầu gồm logo và các button-->
+            <img src="Image/netflixlogo.png"alt="Netflix Logo">
+            <div class="lang-selection-container" id="lang-switcher">
+                <div data-uia="language-picker-header+container" class="ui-select-wrapper"> <!--tạo button chọn ngôn ngữ-->
+                    <i class="bi bi-globe"></i>
+                    <label for="lang-switcher-header-select" class="ui-label">
+                        <div class="select-arrow medium prefix globe"> <!--Thiết lập ngôn ngữ-->
+                            <select data-uia="language-picker-header" class="ui-select medium" id="lang-switcher-header-select" tabindex="0" placeholder="lang-switcher">
+                                <option selected="" lang="vi" value="/vn/" data-language="vi" data-country="VN">Vietnamese</option>
+                                <option lang="en" value="/vn-en/" data-language="en" data-country="VN">English</option>
+                            </select>
+                        </div>        
+                    </label>              
+                </div>
+            </div>
+            <a href="/login" class="btn btn-rounded" data-uia="header-login-link">Sign In</a> <!--tạo button đăng nhập-->
+        </div>
+        <div class="showcase-content">  <!--Phần tiêu đề nội dung-->
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <input type="email" name="email" id="email" placeholder="Email Address"> <!--Tạo input nhập email-->
+            <a href="#" class="btn-lg" data-uia="header-getstart-link">Get Start ></a> <!--Tạo button bắt đầu-->
+        </div>
+    </header>
+    <section class="style-cards"> <!-- chèn thêm các hình ảnh và nội dung-->
+        <div class="card-0">
+            <img src="Image/2.jpg" alt="Netflix Mobile">
+            <div class="desc-0">
+                <h1>Create profiles for kids.</h1>
+                <h3>Take your kids on adventures with their favorite characters in a space dedicated to them for free with your membership.</h3>
+            </div>
+        </div>
+        <div class="card-1">
+            <div class="desc-1">
+                <h1>Enjoy on your TV</h1>
+                <h3>Watch on smart devices like TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray and more.</h3>
+            </div>
+            <img src="Image/tv.png" alt="Netflix TV">
+            <video class="video-1" autoplay="" playinline=""muted="" loop=""><source src="Image/1.m4v" type="video/mp4"></video>
+        </div>
+        <div class="card-2">
+            <img src="Image/part2.jpg" alt="Netflix Mobile">
+            <div class="desc-2">
+                <h1>Download your shows for offline viewing.</h1>
+                <h3>Store your favorite episodes easily and always have something to watch.</h3>
+            </div>
+        </div>
+        <div class="card-3">
+            <div class="desc-3">
+                <h1>Do you have an Android phone? Try our new free service plan!</h1>
+                <h3>Watch newly curated movies and TV shows without providing payment information!</h3>
+                <div class="app-link">
+                    <a data-uia="our-story-cta-freePlanAndroid" class="btn btn-app" href="https://play.google.com/store/apps/details?id=com.netflix.mediaclient" target="_top">
+                        <span id="" class="app-text" data-uia="Download Netflix App">Get the app ></span>
+                        <span id="" class="chevron-right-arrow" data-uia=""></span>
+                    </a>
+                </div>
+            </div>
+            <img src="Image/vn.jpg" alt="Netflix Application"> <!-- Ảnh ứng dựng netflix-->
+        </div>
+        <div class="card-4">
+            <div class="desc-4">
+                <h1>Watch anytime, anywhere.</h1>
+                <h3>Stream unlimited movies and TV entertainment on phones, tablets, laptops and TVs.</h3>
+            </div>
+            <img src="Image/4.png" alt="Device-Pile-In">
+            <video class="video-2" autoplay="" playinline=""muted="" loop=""><source src="Image/2.m4v" type="video/mp4"></video>
+        </div>
+    </section>
     <section class="list">
         <h1>Frequently Asked Questions</h1>
         <div class="accordion-menu">
@@ -174,7 +249,8 @@
                 </div>        
             </label>              
         </div>
-        <p>Netflix VietNam</p>
+        
+        <p>NETFLIX VIETNAM </p>
     </footer>
 </body>
 

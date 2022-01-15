@@ -17,7 +17,7 @@ body{
 }
 
 .wrapper{
-    background-image:url(./css/image/background.jpg) ;
+    background-image:url(Image/background.jpg) ;
     height: 100vh;
      background-size: cover; /*co dãn bằng kích thướng màn hình */
     background-repeat: no-repeat;

@@ -195,8 +195,8 @@ width: 95px;
     margin-top: 70px;
 }
 .tvd-h2{
-    position: relative;;
-    top: -45px;
+    position: relative;  /*vị trí chữ */
+    top: -35px;
 }
 .div-width{
     width: 100%;
@@ -217,11 +217,11 @@ width: 95px;
     display: flex;
 }
 .all-tvd-h2{
-    position: relative;;
-    top: 15px;
+    position: relative; /* vị trí chữ trending now */
+    top: 5px;
 }
 /* Next & previous buttons */
-.sec-next{
+/* .sec-next{
     cursor: pointer;
     position: relative;;
     top: 16px;
@@ -266,12 +266,12 @@ width: 95px;
     background-color: rgba(0,0,0,0.8);
     color: white;
     
-  }
+  } */
   
 /* Trending now collection */
-.trending-now{
+/* .trending-now{
     margin-left: 40px;
-    margin-top: -40px;
+    margin-top: -10px;
 }
 .second-all-movie-div img{
     border-radius: 4px;
@@ -283,88 +283,88 @@ width: 95px;
     cursor: pointer;
     overflow-x: auto;
     
-}
+} */
 
-.h2list{
+/* .h2list{
     position: relative;;
-    top: 30px;
+    top: -830px;
     
-}
+} */
 /* My list collection */
-.my-list{
+ /* .my-list{                      
     margin-left: 40px;
-    margin-top: -70px;
-}
-.second-div-list img{
+    margin-top: -50px;
+} */
+/* .second-div-list img{
     border-radius: 4px;
    margin-left:10px
-}
-.second-div-list{
+} */
+/* .second-div-list{
     display: flex;
  
-}
-.list-div-width{
+} */
+/* .list-div-width{
     width: 100%;
     cursor: pointer;
     overflow-x: auto;
     margin-top: 40px;
-}
+} */
 
 
 /* only on netflix colllection */
-.only-on-netflix{
+/* .only-on-netflix{
     margin-left: 40px;
     margin-top: -40px;
-}
-.netflix-all-movie-div img{
+} */
+/* .netflix-all-movie-div img{
     border-radius: 4px;
     margin-left: 6px;
     height: 450px;
   
-}
-.netflix-div-width{
+} */
+/* .netflix-div-width{
     width: 100%;
     cursor: pointer;
     overflow-x: auto;
     margin-top: 40px;
-}
-.netflix-all-movie-div{
+} */
+/* .netflix-all-movie-div{
     display: flex;
-}
-.tvtvd-h2{
+} */
+/* .tvtvd-h2{
     position: relative;
     top: 30px;
     
-}
+} */
 /* Top 10 */
 
 
-.top10-now{
+/* .top10-now{
     margin-left: 40px;
     height: 250px;
     overflow-y: hidden;
    
-}
-.top10-all-movie-div img{
+} */
+/* .top10-all-movie-div img{
     border-radius: 4px;
     margin-left: 80px;
     width: 150px;
-}
-.top10-div-width{
+} */
+/* .top10-div-width{
     width: 100%;
     cursor: pointer;
     overflow-x: auto;
     overflow-y: hidden;
-}
-.top10-all-movie-div{
+} */
+/* .top10-all-movie-div{
     display: flex;
-}
-.top10-tvd-h2{
+} */
+/* .top10-tvd-h2{
     position: relative;;
     top: 10px;
     
     
-}
+} */
 .topp-one{
     width: 40px;
     height: 70px;
@@ -826,10 +826,10 @@ font-size: 14rem;
     left: 10px; 
 }
 
-  .sec-next{
+  /* .sec-next{
     left: 230px;
     top: 25px;
-}
+} */
 .title-logo{
 margin-top: 20px;
 }

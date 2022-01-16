@@ -17,15 +17,15 @@
         <div class="login__body">
             <div class="login__box">
                 <h2>Sign in</h2>
-                <form>
+                <form class="form-signin" action = "process-signin.php" method = "post">
                     <div class="input__wrap">
-                        <input type="text" placeholder="Email or username">
+                        <input type="email" name = "txtEmail" placeholder="Email or username" required autofocus>
                     </div>
                     <div class="input__wrap">
-                        <input type="text" placeholder="Password">
+                        <input type="password" name = "txtPass" placeholder="Password" required >
                     </div>
                     <div class="input__wrap">
-                        <button>Sign in</button>
+                        <button type="submit" name = "btnSignIn ">Sign in</button>
                     </div>
                     <div class="support">
                         <div class="remember">

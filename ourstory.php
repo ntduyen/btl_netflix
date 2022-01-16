@@ -30,7 +30,7 @@
                     </label>              
                 </div>
             </div>
-            <a href="/login" class="btn btn-rounded" data-uia="header-login-link">Sign In</a> <!--tạo button đăng nhập-->
+            <a href="signin.php" class="btn btn-rounded" data-uia="header-login-link">Sign In</a> <!--tạo button đăng nhập-->
         </div>
         <div class="showcase-content">  <!--Phần tiêu đề nội dung-->
             <h1>Unlimited movies, TV shows, and more.</h1>

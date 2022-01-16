@@ -12,13 +12,11 @@
         <div class="showcase-head"> <!--Phần background-->
             <img src="Image/background.jpg" alt="Netflix Background" class="fit">
         </div>
+        <div class="logo">
+                <a href="#"><img src="Image/netflixlogo.png" alt="logo" srcset=""></a>
+        </div>
     </header>
     <div class="wrapper">
-        <div class="header">
-            <div class="logo">
-                <a href="#"><img src="Image/netflixlogo.png" alt="logo" srcset=""></a>
-            </div>
-        </div>
         <div class="login__body">
             <div class="login__box">
                 <h2>Sign in</h2>

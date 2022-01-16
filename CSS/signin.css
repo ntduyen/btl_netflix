@@ -10,22 +10,26 @@ body{
     width: 100px;
 }
 
-.header{
-    padding: 20px 50px;
-    position: relative;
-    z-index: 10;
+.header .showcase-head img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom: 8px rgb(116, 112, 112) solid ;
 }
-
 .wrapper{
-    background-image:url(Image/background.jpg) ;
+    
     height: 100vh;
-     background-size: cover; /*co dãn bằng kích thướng màn hình */
+    background-size: cover; /*co dãn bằng kích thướng màn hình */
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
-    padding-bottom: 100px;
+    
 }
-
 .wrapper::before{
     contain: '';
     background:rgba(0,0,0, .5) ;
@@ -37,7 +41,6 @@ body{
     left: 0;
     right: 0;
 }
-
 .login__body{
     padding: 60px;
     z-index: 90;

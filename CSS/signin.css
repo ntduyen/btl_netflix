@@ -5,9 +5,11 @@ body{
    
 }
 
-.logo {
-    height: 30px;
-    width: 100px;
+.header .logo img{
+    width: 170px;
+    position: absolute;
+    top: 5%;
+    left: 55px;
 }
 
 .header .showcase-head img{
@@ -20,13 +22,13 @@ body{
     justify-content:space-between;
     align-items:center;
     border-bottom: 8px rgb(116, 112, 112) solid ;
+
 }
 .wrapper{
-    
     height: 100vh;
     background-size: cover; /*co dãn bằng kích thướng màn hình */
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
     width: 100%;
     
 }
@@ -44,7 +46,7 @@ body{
 .login__body{
     padding: 60px;
     z-index: 90;
-    position: relative;
+    position: absolute;
     max-width: 450px;
     height: 630px;
     margin-left: 50%;
@@ -52,6 +54,7 @@ body{
     border-radius: 10px;
     box-sizing: border-box;
     transform: translateX(-50%);
+    top: 15vh;
 }
 
 .login__body h2{

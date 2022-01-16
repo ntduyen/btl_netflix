@@ -12,13 +12,11 @@
         <div class="showcase-head"> <!--Phần background-->
             <img src="Image/background.jpg" alt="Netflix Background" class="fit">
         </div>
+        <div class="logo">
+                <a href="#"><img src="Image/netflixlogo.png" alt="logo" srcset=""></a>
+        </div>
     </header>
     <div class="wrapper">
-        <div class="header">
-            <div class="logo">
-                <a href="#"><img src="Image/netflixlogo.png" alt="logo" srcset=""></a>
-            </div>
-        </div>
         <div class="login__body">
             <div class="login__box">
                 <h2>Sign in</h2>
@@ -48,7 +46,7 @@
                             <span><a href="#">Login with Facebook</a></span>
                         </div>
                         <div class="sign__up">
-                            <p>New to Netflix? <a href="#">Sign up now.</a></p>
+                            <p>New to Netflix? <a href="signup.php">Sign up now.</a></p>
                         </div>
                         <div class="terms">
                             <p>This page is protected by Google reCAPTCHA to make sure you're not a robot <a href="#">Learn more.</a></p>

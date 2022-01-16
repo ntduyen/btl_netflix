@@ -1,8 +1,6 @@
 *{
     box-sizing: border-box;
     padding:0;
-  
-   
 }
 a{
   text-decoration:none;
@@ -210,8 +208,14 @@ width: 95px;
 .all-movie-div img{
     border-radius: 4px;
     margin-left: 5px;
-  
-   
+}
+.img19{
+    width: 300px;
+    height: 169;
+}
+.img20{
+    width: 300px;
+    max-height: -200;
 }
 .second-all-movie-div{
     display: flex;
@@ -220,151 +224,7 @@ width: 95px;
     position: relative; /* vị trí chữ trending now */
     top: 5px;
 }
-/* Next & previous buttons */
-/* .sec-next{
-    cursor: pointer;
-    position: relative;;
-    top: 16px;
-    left: 290px;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    background-color: none;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
 
-}
-.prev, .next {
-    cursor: pointer;
-    position: relative;;
-    top: -100px;
-    left: -10px;
-    width: auto;
-    padding: 26px;
-    margin-top: -22px;
-    color: white;
-    background-color: none;
-    font-weight: bold;
-    font-size: 30px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-   
-  }
-  
-  .next {
-   float:right;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-    color: white;
-    
-  } */
-  
-/* Trending now collection */
-/* .trending-now{
-    margin-left: 40px;
-    margin-top: -10px;
-}
-.second-all-movie-div img{
-    border-radius: 4px;
-    margin-left: 6px;
-    
-}
-.second-div-width{
-    width: 100%;
-    cursor: pointer;
-    overflow-x: auto;
-    
-} */
-
-/* .h2list{
-    position: relative;;
-    top: -830px;
-    
-} */
-/* My list collection */
- /* .my-list{                      
-    margin-left: 40px;
-    margin-top: -50px;
-} */
-/* .second-div-list img{
-    border-radius: 4px;
-   margin-left:10px
-} */
-/* .second-div-list{
-    display: flex;
- 
-} */
-/* .list-div-width{
-    width: 100%;
-    cursor: pointer;
-    overflow-x: auto;
-    margin-top: 40px;
-} */
-
-
-/* only on netflix colllection */
-/* .only-on-netflix{
-    margin-left: 40px;
-    margin-top: -40px;
-} */
-/* .netflix-all-movie-div img{
-    border-radius: 4px;
-    margin-left: 6px;
-    height: 450px;
-  
-} */
-/* .netflix-div-width{
-    width: 100%;
-    cursor: pointer;
-    overflow-x: auto;
-    margin-top: 40px;
-} */
-/* .netflix-all-movie-div{
-    display: flex;
-} */
-/* .tvtvd-h2{
-    position: relative;
-    top: 30px;
-    
-} */
-/* Top 10 */
-
-
-/* .top10-now{
-    margin-left: 40px;
-    height: 250px;
-    overflow-y: hidden;
-   
-} */
-/* .top10-all-movie-div img{
-    border-radius: 4px;
-    margin-left: 80px;
-    width: 150px;
-} */
-/* .top10-div-width{
-    width: 100%;
-    cursor: pointer;
-    overflow-x: auto;
-    overflow-y: hidden;
-} */
-/* .top10-all-movie-div{
-    display: flex;
-} */
-/* .top10-tvd-h2{
-    position: relative;;
-    top: 10px;
-    
-    
-} */
 .topp-one{
     width: 40px;
     height: 70px;
@@ -818,18 +678,12 @@ font-size: 14rem;
    left:  -190px;
     
 }
-/* .float-op{
-  left: -100px; 
-    
-} */
+
 .user-img{
     left: 10px; 
 }
 
-  /* .sec-next{
-    left: 230px;
-    top: 25px;
-} */
+
 .title-logo{
 margin-top: 20px;
 }

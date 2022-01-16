@@ -215,28 +215,7 @@
         </div>
         
         <p>NETFLIX VIETNAM</p>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Invertor Relations</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Speed Test</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Help Center</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Cookie Preferences</a></li>
-                <li><a href="#">Legal Notices</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Account</a></li>
-                <li><a href="#">Ways to Watch</a></li>
-                <li><a href="#">Corporate Information</a></li>
-                <li><a href="#">Only on Netflix</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Media Center</a></li>
-                <li><a href="#">Terms of Use</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
+
         </div>
         <div data-uia="language-picker-header+container" class="ui-select-wrapper"> <!--tạo button chọn ngôn ngữ-->
             <i class="bi bi-globe"></i>
@@ -250,7 +229,6 @@
             </label>              
         </div>
         
-        <p>NETFLIX VIETNAM </p>
     </footer>
 </body>
 

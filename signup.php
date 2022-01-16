@@ -4,15 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix login page</title>
+    <title>Netflix sign up </title>
     <link rel="stylesheet" href="CSS/signin.css">
 </head>
 <body>
-    <header class = "header">
-        <div class="showcase-head"> <!--Phần background-->
-            <img src="Image/background.jpg" alt="Netflix Background" class="fit">
-        </div>
-    </header>
     <div class="wrapper">
         <div class="header">
             <div class="logo">
@@ -21,25 +16,29 @@
         </div>
         <div class="login__body">
             <div class="login__box">
-                <h2>Sign in</h2>
-                <form class="form-signin" action = "process-signin.php" method = "post">
+                <h2>Sign up</h2>
+                <form class = "form-signup" action = "process-signup.php" method = "post">
                     <div class="input__wrap">
-                        <input type="email" name = "txtEmail" placeholder="Email or username" required autofocus>
+                        <input type="email" name = "txtEmail" placeholder="Email " required autofocus>
                     </div>
                     <div class="input__wrap">
-                        <input type="password" name = "txtPass" placeholder="Password" required >
+                        <input type="text" name = "txtUser" placeholder="Username " required autofocus>
                     </div>
                     <div class="input__wrap">
-                        <button type="submit" name = "btnSignIn ">Sign in</button>
+                        <input type="password" name = "txtPass1" placeholder="Password" required>
+                    </div>
+                    <div class="input__wrap">
+                        <input type="password" name = "txtPass2" placeholder="Re-enter pass " required>
+                    </div>
+                    <div class="input__wrap">
+                        <button type = "submit" name = "btnSignUp">Sign up</button>
                     </div>
                     <div class="support">
                         <div class="remember">
                             <span> <input type="checkbox"></span>
                             <span>Remember me</span>
                         </div>
-                        <div class="need__help">
-                            Need help ?
-                        </div>
+                        
                       
                     </div>
                     <div class="login__footer">
@@ -48,11 +47,8 @@
                             <span><a href="#">Login with Facebook</a></span>
                         </div>
                         <div class="sign__up">
-                            <p>New to Netflix? <a href="signup.php">Sign up now.</a></p>
-                        </div>
-                        <div class="terms">
-                            <p>This page is protected by Google reCAPTCHA to make sure you're not a robot <a href="#">Learn more.</a></p>
-                        </div>
+                            <p>New to Netflix? <a href="signin.php">Sign in now.</a></p>
+                        </div>  
                     </div>
                 </form>
             </div>

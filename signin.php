@@ -34,6 +34,12 @@
                         <div class="remember">
                             <span> <input type="checkbox"></span>
                             <span>Remember me</span>
+
+                            <?php
+                                if(isset($_GET['error'])){
+                                echo "<h5 style='color:red'> {$_GET['error']} </h5>";
+                                 }
+                            ?>
                         </div>
                         <div class="need__help">
                             Need help ?

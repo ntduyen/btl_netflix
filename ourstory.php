@@ -178,7 +178,7 @@
             </div>
             <div class="search">
                 <input type="text" name="email" placeholder="Email address">
-                <button type="button" class="btn btn-lg">GET STARTED > </button>
+                <button type="button" class="btn btn-lg">Get Started > </button>
     
             </div>
         </div>

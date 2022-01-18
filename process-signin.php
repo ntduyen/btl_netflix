@@ -6,11 +6,11 @@
         $email = $_POST['txtEmail'];
         $pass = $_POST['txtPass'];
         
-        $conn = mysqli_connect('localhost','root','','nextflix');
-        if(!$conn){
-            die("Kết nối thất bại. Vui lòng kiểm tra lại các thông tin máy chủ");
-        }
-        
+        // $conn = mysqli_connect('localhost','root','','nextflix');
+        // if(!$conn){
+        //     die("Kết nối thất bại. Vui lòng kiểm tra lại các thông tin máy chủ");
+        // }
+        require "config/db.php";
         $sql = "SELECT * FROM db_nguoidung where email = '$email' AND matkhau = '$pass'";
         
         $result = mysqli_query($conn,$sql);

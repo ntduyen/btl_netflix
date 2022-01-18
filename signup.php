@@ -21,12 +21,12 @@
         <div class="login__body">
             <div class="login__box">
                 <h2>Sign up</h2>
-                <form class = "form-signup" action = "process-signup.php" method = "post">
-                    <div class="input__wrap">
-                        <input type="email" name = "txtEmail" placeholder="Email " required autofocus>
-                    </div>
+                <form class = "form-signup" action = "process-register.php" method = "post">
                     <div class="input__wrap">
                         <input type="text" name = "txtUser" placeholder="Username " required autofocus>
+                    </div>
+                    <div class="input__wrap">
+                        <input type="email" name = "txtEmail" placeholder="Email " required autofocus>
                     </div>
                     <div class="input__wrap">
                         <input type="password" name = "txtPass1" placeholder="Password" required>

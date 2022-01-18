@@ -9,18 +9,15 @@
     $pass2 = $_POST['txtPass2'];
 
     // Bước 01: Kết nối Database Server
-    $conn = mysqli_connect('localhost','root','','nextflix');
-    if(!$conn){
-        die("Kết nối thất bại. Vui lòng kiểm tra lại các thông tin máy chủ");
-    }
+    // 
+    require "config/db.php";
     // Bước 02: Thực hiện truy vấn
-    $sql01 = "SELECT * FROM db_nguoidung where email = '$email' AND tendangnhap = '$user'";
+    $sql01 = "SELECT * FROM db_nguoidung where email = '$email' or username = '$user'";
     //ở đây còn vấn đề về tính hợp lệ dữ liệu nhập vào
     //lỗi SQL Injection
 
-    $result01 = mysqli_query($conn,$sql01);
-
-    if(mysqli_num_rows($result ) > 0){
+    $result01 = mysqli_query($conn,   $sql01);
+    if(mysqli_num_rows($result01 ) > 0){
         $error = "User or email is existed";
         header("location: signup.php?error= $error"); //Chuyển hướng về Trang signup
     }else{

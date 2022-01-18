@@ -9,10 +9,8 @@
     $pass2 = $_POST['txtPass2'];
 
     // Bước 01: Kết nối Database Server
-    $conn = mysqli_connect('localhost','root','','nextflix');
-    if(!$conn){
-        die("Kết nối thất bại. Vui lòng kiểm tra lại các thông tin máy chủ");
-    }
+    // 
+    require "config/db.php";
     // Bước 02: Thực hiện truy vấn
     $sql01 = "SELECT * FROM db_nguoidung where email = '$email' or username = '$user'";
     //ở đây còn vấn đề về tính hợp lệ dữ liệu nhập vào

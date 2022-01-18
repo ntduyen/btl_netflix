@@ -8,10 +8,9 @@
     <title>Netflix</title>
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
-
 <body>
-        <!-- Phần header do Đinh Hồng Quân làm-->
-    <header class="showcase">
+    <!-- Phần header do Đinh Hồng Quân làm-->
+    <section class="showcase">
         <div class="showcase-head"> <!--Phần background-->
             <img src="Image/background.jpg" alt="Netflix Background" class="fit">
         </div>
@@ -23,8 +22,8 @@
                     <label for="lang-switcher-header-select" class="ui-label">
                         <div class="select-arrow medium prefix globe"> <!--Thiết lập ngôn ngữ-->
                             <select data-uia="language-picker-header" class="ui-select medium" id="lang-switcher-header-select" tabindex="0" placeholder="lang-switcher">
-                                <option selected="" lang="vi" value="/vn/" data-language="vi" data-country="VN">Vietnamese</option>
-                                <option lang="en" value="/vn-en/" data-language="en" data-country="VN">English</option>
+                                <option selected="" lang="en" value="/vn-en/" data-language="en" data-country="VN">English</option>
+                                <option lang="vi" value="/vn/" data-language="vi" data-country="VN">Vietnamese</option>
                             </select>
                         </div>        
                     </label>              
@@ -37,9 +36,9 @@
             <h3>Watch anywhere. Cancel anytime.</h3>
             <p>Ready to watch? Enter your email to create or restart your membership.</p>
             <input type="email" name="email" id="email" placeholder="Email Address"> <!--Tạo input nhập email-->
-            <a href="#" class="btn-lg" data-uia="header-getstart-link">Get Start ></a> <!--Tạo button bắt đầu-->
+            <a href="#" class="btn btn-lg" data-uia="header-getstart-link">Get Start ></a> <!--Tạo button bắt đầu-->
         </div>
-    </header>
+    </section>
     <section class="style-cards"> <!-- chèn thêm các hình ảnh và nội dung-->
         <div class="card-0">
             <img src="Image/2.jpg" alt="Netflix Mobile">
@@ -179,7 +178,7 @@
             </div>
             <div class="search">
                 <input type="text" name="email" placeholder="Email address">
-                <button type="button">GET STARTED > </button>
+                <button type="button" class="btn btn-lg">GET STARTED > </button>
     
             </div>
         </div>
@@ -216,19 +215,6 @@
         
         <p>NETFLIX VIETNAM</p>
 
-        </div>
-        <div data-uia="language-picker-header+container" class="ui-select-wrapper"> <!--tạo button chọn ngôn ngữ-->
-            <i class="bi bi-globe"></i>
-            <label for="lang-switcher-header-select" class="ui-label">
-                <div class="select-arrow medium prefix globe">           
-                    <select data-uia="language-picker-header" class="ui-select medium" id="lang-switcher-header-select" tabindex="0" placeholder="lang-switcher">
-                        <option selected="" lang="vi" value="/vn/" data-language="vi" data-country="VN">Tiếng Việt</option>
-                        <option lang="en" value="/vn-en/" data-language="en" data-country="VN">English</option>
-                    </select>
-                </div>        
-            </label>              
-        </div>
-        
     </footer>
 </body>
 

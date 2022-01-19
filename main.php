@@ -1,3 +1,10 @@
+<form method="post" action="" enctype='multipart/form-data'>
+<input type='file' name='file' />
+<input type='submit' value='Upload' name='upload'>
+</form>
+<?php require 'action.php';?>
+
+<?php require 'view.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,22 +36,11 @@
     </div>
     </div>
     <!-- search -->
-
- <div class="box" style="float: right;">
-    <input type="text" placeholder="Tìm kiếm..">
-    <i class="fas fa-search"></i>
-</div>
- 
-
-    <!-- <div class="float-op">
-        <input type="text" placeholder="Tìm kiếm..">
-        <a ><i class="fas fa-search"></i></a>
-    </div> -->
+  
    <div class="box" style="float: right;">
     <input type="text" placeholder="Tìm kiếm..">
     <i class="fas fa-search"></i>
        </div>
-
       <!-- btn đăng xuất -->
       <a class="button1" href="">
         <span class="btn1">Đăng Xuất</span>
@@ -67,10 +63,7 @@
                     <button class="color-primary" tabindex="-1" type="button"><div class="ltr-1ksxkn9"><div class="medium ltr-dguo2f" role="presentation">
                         <svg class="svg-radius" viewBox="0 0 24 24"><path d="M6 4l15 8-15 8z" fill="currentColor"></path></svg></div></div>
                         <div class="just-div" style="width:1rem"></div>
-
                     <a href="./Movies/videos/video4.mp4">
-                    <a href="./Movies/videos/video32.mp4">
-
                     <span class="info-btn" >Play</span></button>
                    </a>
 </div>
@@ -97,11 +90,7 @@
  
 
 <a href="./Movies/videos/video1.mp4">
-
    <div >
-
-   <div >
-
         <img src="./Movies/images/img1.jpg" alt="">
     </div>
 </a> 
@@ -119,8 +108,7 @@
 </a>
 </a>
 <a href="./Movies/videos/video4.mp4">
-
-
+    <div >
         <img src="./Movies/images/img4.jpg" alt="">
     </div>
 </a>
@@ -741,7 +729,6 @@
         <p>Terms Of Use</p>
         <p>Corperate Information</p> 
   </div>
-  
 </footer>
 </section>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

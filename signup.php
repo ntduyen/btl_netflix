@@ -54,6 +54,14 @@
                             <p>New to Netflix? <a href="signin.php">Sign in now.</a></p>
                         </div>  
                     </div>
+                    <?php
+                        session_start();
+                        if(isset($_SESSION['isLoginOK'])){
+                        unset($_SESSION['isLoginOK']);
+                        header('location:login.php');
+                        }        
+                    ?>
+
                 </form>
             </div>
         </div>

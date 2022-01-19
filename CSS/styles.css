@@ -55,11 +55,10 @@ img{
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 400px;
+    height: 500px;
     z-index: 1;
     background: linear-gradient(to top, rgb(0, 0, 0), transparent);
-    transform: translate(0%, 60%);
-    /*border-bottom: 8px rgb(116, 112, 112) solid ;*/
+    transform: translate(0%, 26%);
 }
 
 /* chỉnh sửa các thuộc tính cho background */
@@ -91,7 +90,7 @@ img{
 }
 /* chọn vị trí cho ảnh logo */
 .showcase .showcase-top img{
-    width: 170px;
+    width: 210px;
     z-index: 1;
     transform: translate(35%, 60%);
     /*position: absolute;
@@ -107,7 +106,7 @@ img{
     border-radius: 3px;
     z-index: 1;
     display: block;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     cursor: pointer;
     margin-right: 0.5rem;
@@ -130,7 +129,7 @@ img{
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 17px;
+    font-size: 25px;
     transform: translate(-140%, 70%);
     background: #00000066;
     padding: 6px 10px;
@@ -153,21 +152,21 @@ img{
 /* chinhr sửa thuộc tính cho nội dung 1 */
 .showcase .showcase-content h1{
     font-weight: 700;
-    font-size: 60.5px;
-    margin:0 5px;
+    font-size: 80.5px;
+    margin:0 80px;
     max-width: 800px;
-    line-height: 60px;
+    line-height: 70px;
 }
 /* chinhr sửa thuộc tính cho nội dung 2 */
 .showcase .showcase-content h3{
     color:white;
-    font-size: 25px;
+    font-size: 35px;
     margin: 16px 0;
     max-width: 640px;
 }
 /* chinhr sửa thuộc tính cho nội dung 3 */
 .showcase .showcase-content p{
-    font-size: 19.2px;
+    font-size: 25.2px;
     font-weight: 300;
     padding-top: 0.5rem;
     padding-bottom: 1rem;
@@ -209,15 +208,15 @@ img{
     flex-direction: row;
     justify-content:left;
     align-items:center;
-    font-size: 16px;
+    font-size: 18px;
     border: 1px solid #8c8c8c;
     outline: none;
     color: #000;
     border-radius: 2px;
     padding: 4px 4px 0 0;
-    min-width: 400px;
-    height: 60px;
-    margin-left: -150px;
+    min-width: 580px;
+    height: 80px;
+    margin-left: -190px;
 }
 
 /* chọn vị trí cho nút bắt đầu */
@@ -244,13 +243,14 @@ img{
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
     padding: 10px;
     font-size: 1.625rem;
-    line-height: 50px;
+    line-height: 60px;
     min-width: 100px;
     margin-left: 455px;
-    height: 47px;
+    height: 65px;
     transform: translate(-4%, -100%);
     align-items:center;
     justify-content:center;
+    margin-left: 600px;
 }
 /* Chỉnh sửa thuộc tính cho các tiêu đề */
 .style-cards h1{
@@ -339,9 +339,9 @@ img{
     position: relative;
     color: white;
     font-size: 1.6rem;
-    background: black;
-    padding-left: 0;
+    background: #00000066;
     padding-top: 40px;
+    display: flex;
 }
 /* chọn vị trí cho tiêu đề 5 + ảnh 5 + video 2 */
 .card-4{
@@ -547,7 +547,8 @@ footer p {
     }
     .showcase::after{
         width: 200%;
-        transform: translate(0%, -73%);
+        height: 1000px;
+        
     }
     /* chỉnh sửa các thuộc tính cho background */
     .showcase .showcase-head img{
@@ -572,11 +573,11 @@ footer p {
     .showcase .showcase-content{
         position: absolute;
         margin: 70px;
-        transform: translate(-20%, 40%);
+        transform: translate(-20%, 20%);
     }
     .showcase .showcase-content h1{
-        font-size: 32px;
         line-height: 30px;
+        font-size: 30px;
     }
     .showcase .showcase-content h3{
         font-size: 20px;
@@ -630,6 +631,7 @@ footer p {
         flex-direction:column-reverse;
         justify-content:center;
         text-align:center;
+        z-index: 1;
     }
     /* căn lề cho tiêu đề 1 */
     .desc-0{
@@ -643,6 +645,7 @@ footer p {
         align-items:center;
         text-align:center;
         padding-top: 50px;
+        z-index: 1;
     }
     /* căn lề cho tiêu đề 2 */
     .desc-1{
@@ -788,7 +791,7 @@ footer p {
 /* Tablet: min-width >= 740px and max-width < 1024px */
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
     .showcase::after{
-        transform: translate(0%, -68%);
+        height: 900px;
     }
     /* chỉnh sửa các thuộc tính cho background */
     .showcase .showcase-head img{
@@ -806,28 +809,31 @@ footer p {
         transform: translate(-5%, 30%);
     }
     .showcase .showcase-top a{
+        font-size: 1rem;
         transform: translate(-100%, 30%);
     }
     .ui-select{
+        font-size: 18px;
         transform: translate(-190%, 85%);
     }
     .showcase .showcase-content{
         position: absolute;
         margin: 170px;
         font-size:1.25rem;
-        
+
     }
     .showcase .showcase-content h1{
         font-size: 50.5px;
         margin:0 5px;
+        line-height: 60px;
     }
     .showcase .showcase-content h3{
-        font-size: 15px;
+        font-size: 20px;
         margin: 10px 0;
 
     }
     .showcase .showcase-content p{
-        font-size: 13.2px;
+        font-size: 15.2px;
         padding-top: 0.2rem;
         padding-bottom: 0.8rem;
     }
@@ -837,6 +843,7 @@ footer p {
         height: 55px;
         margin-left: -10px;
         min-width:450px;
+        font-size: 15px;
     }
     
     .showcase .showcase-content a{
@@ -873,6 +880,7 @@ footer p {
         flex-direction:column-reverse;
         justify-content:center;
         text-align:center;
+        z-index: 1;
     }
     /* căn lề cho tiêu đề 1 */
     .desc-0{
@@ -931,7 +939,7 @@ footer p {
         color: white;
         font-size: 1.3rem;
         background: #00000066 ;
-        padding-left: 0;
+        padding-left: 320px;
         padding-top: 5px;
     }
     /* chọn vị trí cho tiêu đề 5 + ảnh 5 + video 2 */
@@ -948,7 +956,7 @@ footer p {
     /*Chỉnh sửa thuộc tính cho video 1 */
     .card-4 video{
         position: absolute;  
-        width: 55%;
+        width: 60%;
         height: 100%;
         transform: translate(0%, -10%);
     }
@@ -983,7 +991,7 @@ footer p {
         align-items: center;
     }
     .banner .search button{
-        text-transform: lowercase;
+        text-transform: none;
         font-size: 1rem;
         padding: 0 10px;
         line-height: 40px;

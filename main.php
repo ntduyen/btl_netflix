@@ -1,14 +1,20 @@
+<form method="post" action="" enctype='multipart/form-data'>
+<input type='file' name='file' />
+<input type='submit' value='Upload' name='upload'>
+</form>
+<?php require 'action.php';?>
+
+<?php require 'view.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <script src="https://kit.fontawesome.com/da3a01af99.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
      <!-- cdnjs -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link rel="stylesheet" href="bootstrap.bundle.min.js / bootstrap.bundle.js">
      <link rel="stylesheet" href="./stylemain.css">
     <title>Netflix clone</title>
 </head>
@@ -21,27 +27,24 @@
         <div class="dropdown">
             <span class="browse-el">Browse</span>
             <div class="dropdown-content">
-              <p>Home</p>
-              
-               <p><a href="#dramas">TV Shows</a></p>
-                <p>Movies</p>
-                
-                <p><a href="#new_popular">News & popular</a></p>
-              <p><a href="#list">My List</a></p> 
+              <p><a href="#dramas">Trang chủ</a></p>
+               <p><a href="#dramas">Phim T.hình</a></p>
+                <p><a href="#new_popular">Phim</a></p>
+                <p><a href="#new_popular">Mới & phổ biến</a></p>
+              <p><a href="#list">Danh sách của tôi</a></p> 
             </div>
     </div>
     </div>
-    <!-- notification nav -->
-   <div class="float-op" style="float: right;">
-        <div class="search"></div>
+    <!-- search -->
+  
+   <div class="box" style="float: right;">
+    <input type="text" placeholder="Tìm kiếm..">
+    <i class="fas fa-search"></i>
        </div>
-
-<div class="user-img" style="float: right;">
-    
-    <img src="./image/icon_account.png" alt="">
-        
-          <span class="span-icon"></span> 
-      </div>
+      <!-- btn đăng xuất -->
+      <a class="button1" href="">
+        <span class="btn1">Đăng Xuất</span>
+        </a>
 </div>
   <!-- image and logo -->
 <div class="between-img-div" >
@@ -60,14 +63,12 @@
                     <button class="color-primary" tabindex="-1" type="button"><div class="ltr-1ksxkn9"><div class="medium ltr-dguo2f" role="presentation">
                         <svg class="svg-radius" viewBox="0 0 24 24"><path d="M6 4l15 8-15 8z" fill="currentColor"></path></svg></div></div>
                         <div class="just-div" style="width:1rem"></div>
-                        <span class="info-btn">Play</span></button></a>
-                        <button class="button-secondary"  type="button">
-                            <div class="ltr"><div class="medium"><svg class="svg-radius" viewBox="0 0 24 24"><path d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-2 0a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8zm-9 6v-7h2v7h-2zm1-8.75a1.21 1.21 0 0 1-.877-.364A1.188 1.188 0 0 1 10.75 8c0-.348.123-.644.372-.886.247-.242.54-.364.878-.364.337 0 .63.122.877.364.248.242.373.538.373.886s-.124.644-.373.886A1.21 1.21 0 0 1 12 9.25z" fill="currentColor">
-                            </path></svg></div></div>
-                            <div class="more-info" style="width:1rem"></div>
-                            <span class="info-btn">More Info</span></button>
-                        </div></div></div></div></div></div></span>                    
+                    <a href="./Movies/videos/video4.mp4">
+                    <span class="info-btn" >Play</span></button>
+                   </a>
 </div>
+</div>                 
+
 <!-- rating -->
 <div class="ratin-div" style="float: right;">
         <button aria-label="Replay" class="color-supplementary" type="button">
@@ -728,7 +729,6 @@
         <p>Terms Of Use</p>
         <p>Corperate Information</p> 
   </div>
-  
 </footer>
 </section>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -751,7 +751,7 @@ $('.js-filter').on('click', function(){
   } else {
     $('.filtering').slick('slickUnfilter');
     $(this).text('Filter Slides');
-    filtered = false;
+    filtered = true;
   }
 });
 </script>

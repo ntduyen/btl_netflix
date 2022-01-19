@@ -63,12 +63,54 @@ font-weight: bolder; color: white;
 .browse-el{
     display: none;
 }
-/* vị trí thanh tìm kiếm */
-.float-op{
+/*  thanh tìm kiếm */
+/* tạo định dạng cho lớp box */
+.box{
     position: relative;
-   top: -29px;
-    left:-70px;
+   top: -40px;
+    left:-200px;
 }
+.box {
+    cursor: pointer;
+    height: 41px;
+    background-color: rgb(213, 27, 27);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* tạo định dạng cho thẻ input */
+  input {
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 0px;
+    transition: 0.8s ease;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  /* tạo định dạng cho thẻ a */
+  a {
+    color: whitesmoke;
+    text-align: center;
+    width: 60px;
+    font-size: 18px;
+  }
+  /* tạo hiệu ứng với Pseudo hover */
+  .box:hover input {
+    width: 200px;
+    margin: 0 20px;
+    border-bottom: 2px solid red;
+  }
+  /* giữ trạng thái khung tìm kiếm */
+  input:focus {
+    width: 200px;
+    margin: 0 20px;
+    border-bottom: 2px solid red;
+  }
 
 .search{
     margin: 0 auto;
@@ -92,16 +134,41 @@ font-weight: bolder; color: white;
     border-radius: 10px;
     
 }
-
-.user-img{
-     position: relative;
-   top: -40px;
-    left:6px; 
-}
-.user-img img{
- border-radius: 5px;  
-}
-
+/* button */
+.button1 {
+    top: -43px;
+    left:1750px; 
+    background-image: linear-gradient(135deg, #eb0f1a, #8c1616);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: block;
+    height: 40px;
+    font-size: 1.1em;
+    /* font-weight: 500; */
+    padding: 3px;
+    position: relative;
+    text-decoration: none;
+    width: 6em;
+    z-index: 2;
+  }
+ .button1:hover {
+    color: #fff;
+  }
+ .button1 .btn1 {
+    align-items: center;
+    background: #0e0e10;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center; /*căn chỉnh chữ */
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+  }
+ .button1:hover .btn1 {
+    background: transparent;
+  }
+  /* ----------------------- */
 .span-icon{
     width: 0px;
     height: 0px;
@@ -146,20 +213,13 @@ button{
     top: -17px;
 }
 .color-primary{
-background-color:#FFFFFF ;
+background-color:#766f6f ;
 border: none;
 width: 95px;
     height: 40px;
     border-radius: 3px;
 }
-.button-secondary{
-    background-color: #4F4F4F;
-    border: none;
-    width: 110px;
-    height: 40px;
-    border-radius: 3px;
-    margin-left: 10px;
-}
+
 .ratin-div{
     position: relative;
     top: -670px;
@@ -679,9 +739,9 @@ font-size: 14rem;
     
 }
 
-.user-img{
+/* .user-img{
     left: 10px; 
-}
+} */
 
 
 .title-logo{

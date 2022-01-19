@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 19, 2022 at 06:26 AM
+-- Generation Time: Jan 19, 2022 at 07:37 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -20,6 +20,27 @@ SET time_zone = "+00:00";
 --
 -- Database: `nextflix`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `admin`
+--
+
+CREATE TABLE `admin` (
+  `email` varchar(30) NOT NULL,
+  `name` varchar(50) DEFAULT NULL,
+  `pass` varchar(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `admin`
+--
+
+INSERT INTO `admin` (`email`, `name`, `pass`) VALUES
+('dhq@gmail.com', 'quan', 'abcd'),
+('mvd@gmail.com', 'duc', 'abcde'),
+('ntd@gmail.com', 'duyen', 'abcdef');
 
 -- --------------------------------------------------------
 
@@ -70,6 +91,12 @@ INSERT INTO `videos` (`id`, `name`, `location`) VALUES
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `admin`
+--
+ALTER TABLE `admin`
+  ADD PRIMARY KEY (`email`);
 
 --
 -- Indexes for table `users`

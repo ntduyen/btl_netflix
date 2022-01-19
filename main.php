@@ -120,9 +120,6 @@
 </a>
 <a href="./Movies/videos/video4.mp4">
 
-    <div>
-
-    <div >
 
         <img src="./Movies/images/img4.jpg" alt="">
     </div>

@@ -21,7 +21,7 @@
             $row1 = mysqli_fetch_assoc($result);
             if(mysqli_num_rows($result) >0 && password_verify($pass, $row1['password'])){
                 $_SESSION['isLoginOK'] = $email;
-                header("location: main.php");
+                header("location: upload.php");
             }
         }else{
             $error = "Bạn nhập Email hoặc Mật khẩu chưa chính xác";

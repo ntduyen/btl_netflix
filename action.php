@@ -3,7 +3,7 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$dbname = "database_netflix";
+$dbname = "nextflix";
 
 $con = mysqli_connect($host, $user, $password,$dbname);
 // Check connection

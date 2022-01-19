@@ -29,7 +29,10 @@
                     </label>              
                 </div>
             </div>
-            <a href="signin.php" class="btn btn-rounded" data-uia="header-login-link">Sign In</a> <!--tạo button đăng nhập-->
+            <a href="process-signin.php" class="btn btn-rounded" data-uia="header-login-link">Admin</a> <!--tạo button đăng nhập-->
+            <a class="button1" href="signin.php">
+        <span class="btn1">Sign in</span>
+        </a>
         </div>
         <div class="showcase-content">  <!--Phần tiêu đề nội dung-->
             <h1>Unlimited movies, TV shows, and more.</h1>

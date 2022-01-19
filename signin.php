@@ -22,7 +22,7 @@
                 <h2>Sign in</h2>
                 <form class="form-signin" action = "process-signin.php" method = "post">
                     <div class="input__wrap">
-                        <input type="email" name = "txtEmail" placeholder="Email or username" required autofocus>
+                        <input type="text" name = "txtEmail" placeholder="Email or username" required autofocus>
                     </div>
                     <div class="input__wrap">
                         <input type="password" name = "txtPass" placeholder="Password" required >

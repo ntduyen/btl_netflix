@@ -1,10 +1,3 @@
-<form method="post" action="" enctype='multipart/form-data'>
-<input type='file' name='file' />
-<input type='submit' value='Upload' name='upload'>
-</form>
-<?php require 'action.php';?>
-
-<?php require 'view.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,7 +35,7 @@
     <i class="fas fa-search"></i>
        </div>
       <!-- btn đăng xuất -->
-      <a class="button1" href="">
+      <a class="button1" href="logout.php">
         <span class="btn1">Đăng Xuất</span>
         </a>
 </div>

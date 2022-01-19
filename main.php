@@ -35,7 +35,7 @@
     <i class="fas fa-search"></i>
        </div>
       <!-- btn đăng xuất -->
-      <a class="button1" href="logout.php">
+      <a class="button1" href="ourstory.php">
         <span class="btn1">Đăng Xuất</span>
         </a>
 </div>

@@ -281,7 +281,7 @@ width: 95px;
     display: flex;
 }
 .all-tvd-h2{
-    position: relative; /* vị trí chữ trending now */
+    position: relative; 
     top: 5px;
 }
 

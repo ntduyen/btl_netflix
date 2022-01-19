@@ -10,6 +10,7 @@ body{
     position: absolute;
     top: 3%;
     left: 55px;
+    object-fit: cover;
 }
 
 .header .showcase-head img{
@@ -159,10 +160,10 @@ body{
 /* Moblie: min-width < 740px */
 @media only screen and (max-width: 46.1875em){
     .header .logo img{
-        width: 80px;
+        width: 75px;
         position: absolute;
         z-index: 1;
-        transform: translate(-50%, -100%);
+        transform: translate(-55%, -20%);
     }
     .header .showcase-head img{
         display: none;
@@ -185,7 +186,7 @@ body{
     .header .logo img{
         width: 170px;
         position: absolute;
-        transform: translate(-20%, -70%);
+        transform: translate(-20%, -20%);
     }
     .header .showcase-head img{
         width: 100%;

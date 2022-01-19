@@ -12,7 +12,7 @@
         //     die("Kết nối thất bại. Vui lòng kiểm tra lại các thông tin máy chủ");
         // }
         require "config/db.php";
-        $sql = "SELECT * FROM user where email = '$email' or username =  '$email'";
+        $sql = "SELECT * FROM admin where email = '$email' or username =  '$email'";
 
         
         $result = mysqli_query($conn,$sql);
